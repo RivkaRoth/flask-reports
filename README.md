@@ -9,6 +9,6 @@ Each customer can have a few yaml files, each yaml file for each report.
 yaml file structure should be like this:
 1. customer id
 2. template id
-3. template data
+3. report meta daa
 
 data-extracts repository will read the file (by file name/ id) and return the study data according to report definition.
