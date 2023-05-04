@@ -2,7 +2,7 @@
 model: pg
 version: '2.3'
 Name: Nerivio Treatment
-template: subject_variables
+template: subject_event_variables
 report:
   crf: Migraine Daily Diary
   items:
