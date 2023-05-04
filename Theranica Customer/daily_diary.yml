@@ -1,0 +1,14 @@
+# nerivio_treatment.yml
+model: pg
+version: '2.3'
+Name: Nerivio Treatment
+template: subject_event_variables
+report:
+  crf: Migraine Daily Diary
+  items:
+     - MIDDPHASE
+     - MIDDONDAT
+     - MIDDONTIM
+     - MIDDONTIMAMPM
+     - MIDDPNSEV
+     - MIDDHDCHDAY
