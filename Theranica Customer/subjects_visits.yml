@@ -2,10 +2,10 @@
 model: pg
 version: '2.3'
 name: Dates screened
-template: subject_date_time_variables
+template: subject_variables
 report:
   items:
     - DOVDAT
-    - VISIT1PHASE
+    - VISIT1DAT
     - VISIT2DAT
     - DSSTDAT
