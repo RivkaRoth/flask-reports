@@ -4,7 +4,7 @@ version: '2.3'
 Name: Nerivio Treatment
 template: subject_event_variables
 report:
-  crf: 	Nerivio treatment report
+  crf: Nerivio treatment report
   items:
      - NRVIOTRTMNTDAT1
      - NRVIOTRTMNTTIM1
