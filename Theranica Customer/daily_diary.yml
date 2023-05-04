@@ -1,6 +1,6 @@
 # nerivio_treatment.yml
 model: pg
-version: '2.1'
+version: '2.3'
 Name: Nerivio Treatment
 template: subject_event_variables
 report:
@@ -10,5 +10,3 @@ report:
      - MIDDONDAT
      - MIDDONTIM
      - MIDDONTIMAMPM
-     - MIDDPNSEV
-     - MIDDHDCHDAY
