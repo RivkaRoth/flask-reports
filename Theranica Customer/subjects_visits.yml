@@ -2,7 +2,7 @@
 model: pg
 version: '2.3'
 name: Dates screened
-template: subject_variables
+template: subject_date_time_variables
 report:
   items:
     - DOVDAT
