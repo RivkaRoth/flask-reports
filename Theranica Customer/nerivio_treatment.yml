@@ -1,0 +1,19 @@
+# nerivio_treatment.yml
+model: pg
+version: '2.3'
+Name: Nerivio Treatment
+template: subject_event_variables
+report:
+  crf: 	Nerivio treatment report
+  items:
+     - NRVIOTRTMNTDAT1
+     - NRVIOTRTMNTTIM1
+     - NRVIOTRTMNTTYPE1
+     - NRVIOTRTMNTEVALUABLE1
+     - NRVIOTRTMNTMITT1
+     - NRVIOTRTMNTPHASE1
+     - NRVIOTRTMNTATKNUM1
+     - NRVIOTRTMNTMBS1
+     - NRVIOTRTMNTDAT2
+     - NRVIOTRTMNTTIM2
+     - NRVIOTRTMNTMBS2
