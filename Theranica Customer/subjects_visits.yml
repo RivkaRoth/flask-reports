@@ -1,0 +1,11 @@
+# SubjectsVisits.yml
+model: pg
+version: '2.3'
+name: Dates screened
+template: subject_variables
+report:
+  items:
+    - DOVDAT
+    - VISIT1PHASE
+    - VISIT2DAT
+    - DSSTDAT
