@@ -1,13 +1,15 @@
 # nerivio_treatment.yml
 model: pg
 version: '2.3'
-Name: Nerivio Treatment
+Name: Treatments
 template: subject_date_time_variables
 report:
-  crf: Nerivio treatment report
+  crf: Treatment and outcomes
   items:
-     - NRVIOTRTMNTTYPE1
-     - NRVIOTRTMNTEVALUABLE1
-     - NRVIOTRTMNTMITT1
-     - NRVIOTRTMNTPHASE1
-     - NRVIOTRTMNTATKNUM1
+     - TRTSUMPHASE
+     - TRTSUMDATE
+     - TRTSUMTIME
+     - TRTSUMSEQ
+     - TRTSUMAVGSTIN
+     - TRTSUMMAXSTIN
+     - TRTSUMTRTDUR
