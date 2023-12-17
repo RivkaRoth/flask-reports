@@ -1,1 +1,14 @@
-
+# site_subjects.yml
+model: pg
+version: '2.3'
+Name: Enrollment by site
+template: site_event_count_subjects
+report:
+   events:
+    - Screening
+    - Visit 2
+    - Phone visit 1
+    - Visit 3
+    - Phone visit 2
+    - Visit 4
+    - Termination
