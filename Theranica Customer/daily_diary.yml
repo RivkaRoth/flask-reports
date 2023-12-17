@@ -4,14 +4,14 @@ version: '2.3'
 Name: Daily Diry Report
 template: subject_date_time_variables
 report:
-  crf: Migraine Daily Diary
+  crf: FibroNova daily diary
   items:
-     - MIDDPHASE
-     - MIDDONDAT
-     - MIDDONTIM
-     - MIDDONTIMAMPM
-     - MIDDHDCHDAY
-     - MIDDMIGRDAY
-     - MIDDACUTMEDDAY
-     - MIDDABSNTSMDAY
-     - MIDDPRSNTSMDAY
+     - FIBDPHASE
+     - FIBDDATE
+     - FIBDTIME
+     - FIBDPAIN
+     - FIBDFD
+     - FIBDSQ
+     - FIBDDEP
+     - FIBDANX
+     - FIBDMEMCON
