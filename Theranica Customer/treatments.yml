@@ -1,4 +1,4 @@
-# nerivio_treatment.yml
+# treatments.yml
 model: pg
 version: '2.3'
 Name: Treatments
